@@ -6,7 +6,7 @@ Create dynamic web pages by editing a spreadsheet using only client-side code.
 
 ## Step-by-step
 
-''''
+'''javascript
 loadSpreadsheet(url,complete,id,requestNumber) {
 
 $('#statusBar').show();
