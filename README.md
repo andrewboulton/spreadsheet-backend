@@ -8,18 +8,28 @@ The Websheet is a cool, single page, multi-sectioned site. See demo: boulton.co
 Edit your website from any device.
 
 ##Main features
--As simple as editing text in a spreadsheet
--Add and remove sections to customize your site
--Unlimited formatting: you may include custom Markdown or HTML in your content
--Fully customizable - edit the CSS and script files provided or use one of the two themes
--Get creative with dynamic data: if it's in your Sheet it can be on your site
+*As simple as editing text in a spreadsheet
+*Add and remove sections to customize your site
+*Unlimited formatting: you may include custom Markdown or HTML in your content
+*Fully customizable - edit the CSS and script files provided or use one of the two themes
+*Get creative with dynamic data: if it's in your Sheet it can be on your site
 
-## Step-by-step
+##Coming soon
+*Flickr image galleries
 
 ## Getting started
 
-1. The key ingredient to Websheets is the spreadsheet. This is your website's backend!
-2. Download websheets.zip and upload the included files to a web server. Or you can work on things locally.
+There are two requirements: 1. the spreadhseet and 2. the website files
+### The spreadsheet
+1. Upload the file *content.xslx* to Google Documents
+2. Publish the file
+
+
+## The website files
+1. Extract the *websheets.zip* file and upload to a web server. (You may also work on your site locally.)
+
+## Link the spreadhseet and website files
+This is the only step that requires you to 
 
 ```javascript
 loadSpreadsheet(url,complete,id,requestNumber) {
